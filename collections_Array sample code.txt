@@ -1,0 +1,22 @@
+package com.jpractise.collections;
+
+public class ArrayExample {
+	// Array is a fixed length.
+    //It does not follow sorting order .
+	
+public static void main(String[] args) {
+	
+	
+	int JakeerArray[] = new int[5] ; 
+	
+	JakeerArray[0] = 10;
+	JakeerArray[1] = 100;
+	JakeerArray[2] = 1000;
+	JakeerArray[3] = 10000;
+	JakeerArray[4] = 100000;
+	
+	for(int i=0; i<JakeerArray.length;i++)
+	
+	System.out.println(JakeerArray[i]);
+}
+}
